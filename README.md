@@ -48,11 +48,13 @@
         * `php artisan db:seed`
 
 ## SetUp Frontend
-1. npmパッケージをインストールする
+1. node.jsをインストールする
+    * https://nodejs.org/ja/download/
+3. npmパッケージをインストールする
     * `$ npm install`
-1. フロントリソースをビルドする
+4. フロントリソースをビルドする
     * `$ npm run dev`
-1. 動作確認
+5. 動作確認
     * xamppのApacheを起動する
     * http://localhost
 
