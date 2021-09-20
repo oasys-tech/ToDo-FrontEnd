@@ -2,15 +2,14 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Example from "./Example";
+import Example from "../pages/Example";
 
 function Main() {
     return (
         <Router>
-            <main>
+            <main className={"m-5"}>
                 <Switch>
                     <Route path="/" exact component={Example} />
-                    <Route path="/test" exact component={Example} />
                 </Switch>
             </main>
         </Router>

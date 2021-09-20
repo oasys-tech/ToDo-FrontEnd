@@ -8,15 +8,7 @@
 	<style> .navbar{margin-bottom: 20px;} </style>
 </head>
 <body>
-<div class="container" style="padding:20px;">
-	<h1 style="text-align:center;">
-		<a href="/employee"> Full Stack - Laravel 8 & React Hooks </a>
-	</h1>
-	<hr>
-
   <div id="app"></div>
   <script src="/js/app.js"></script>
-
-</div>
 </body>
 </html>
