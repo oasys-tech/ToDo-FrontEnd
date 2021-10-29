@@ -15,9 +15,9 @@
     1. C:\xampp\htdocsにソースをコピーする
     1. xamppシェルを起動する
     1. アプリケーションディレクトリに移動する
-        * cd htdocs\todo-app
+        * `$ cd htdocs\todo-app`
     1. パッケージのインストール
-        * composer install
+        * `$ composer install`
     1. apacheのバーチャルホスト設定
         "C:\xampp\apache\conf\extra\httpd-vhosts.conf"に以下を追記する
         ```
@@ -35,26 +35,24 @@
         * `$ copy .env.example .env`
         * `$ php artisan key:generate`
     1. mysqlのパスワードを設定する
-        * `mysqladmin -u root password`
+        * `$ mysqladmin -u root password`
         * `New password: secret`
         * `Confirm new password: secret`
     1. DBに接続する
-        * `mysql -u root -p`
+        * `$ mysql -u root -p`
     1. 新しいスキーマを作成する
         * `CREATE DATABASE todo;`
     1. DBをマイグレートする
-        * `php artisan migrate`
+        * `$ php artisan migrate`
     1. テストデータを作成する
-        * `php artisan db:seed`
+        * `$ php artisan db:seed`
 
 ## SetUp Frontend
-1. node.jsをインストールする
-    * https://nodejs.org/ja/download/
-3. npmパッケージをインストールする
+1. npmパッケージをインストールする
     * `$ npm install`
-4. フロントリソースをビルドする
+1. フロントリソースをビルドする
     * `$ npm run dev`
-5. 動作確認
+1. 動作確認
     * xamppのApacheを起動する
     * http://localhost
 
@@ -63,3 +61,15 @@
     * `$ npm install @mui/material`
     * `$ npm install @emotion/react @emotion/styled`
 1. レイアウトをカスタマイズする
+
+## ページを作成する
+1. ページを作成する
+2. ルーティングを変更する
+3. 背景色を変更する
+
+## コンポーネントを作成する
+1. 必要なコンポーネントをインストールする
+    * `$ npm install @mui/icons-material @mui/material`
+2. ToDoDetailコンポーネントを作成する
+3. ToDoコンポーネントを作成する
+4. ページにToDoコンポーネントを追加する
