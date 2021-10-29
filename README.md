@@ -62,13 +62,13 @@
     * `$ npm install @emotion/react @emotion/styled`
 1. レイアウトをカスタマイズする
 
-## ページを作成する
+## トップページを作成する
 1. ページを作成する
 2. ルーティングを変更する
 3. 背景色を変更する
 
-## コンポーネントを作成する
-1. 必要なコンポーネントをインストールする
+## ToDoコンポーネントを作成する
+1. 必要なライブラリをインストールする
     * `$ npm install @mui/icons-material @mui/material`
 2. ToDoDetailコンポーネントを作成する
 3. ToDoコンポーネントを作成する
