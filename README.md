@@ -69,7 +69,10 @@
 
 ## ToDoコンポーネントを作成する
 1. 必要なライブラリをインストールする
-    * `$ npm install @mui/icons-material @mui/material`
+    * `$ npm install @mui/icons-material react-router-dom`
+1. Homeページを作成する
+1. 初期表示ページをHomeページに変更する
 1. ToDoコンポーネントを作成する
-1. ページにToDoコンポーネントを追加する
+1. ToDoコンポーネントをHomeページに追加する
 1. ToDoDetailコンポーネントを作成する
+1. ToDoDetailコンポーネントをToDoコンポーネントに追加する
