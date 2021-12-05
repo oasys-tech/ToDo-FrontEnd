@@ -70,6 +70,7 @@
 ## ToDoコンポーネントを作成する
 1. 必要なライブラリをインストールする
     * `$ npm install @mui/icons-material react-router-dom`
+1. Path Intellisenseプラグインをインストールする(https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 1. ToDoコンポーネントを作成する
 1. ToDoコンポーネントをHomeページに追加する
 
