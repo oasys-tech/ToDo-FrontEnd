@@ -83,5 +83,9 @@
     * `$ npm install react-query`
 1. ToDo取得API呼び出し用のHookを作成する
 1. ToDoデータ取得用のHookを作成する
+ 
+## ToDoを表示する
 1. ToDo取得APIを呼び出す
 1. ToDoデータを利用してToDoコンポーネントを生成するように修正する
+1. ToDoControllerのindexメソッドに、ToDoDetailも一緒に返却するように修正する
+1. ToDoDetailコンポーネントにバックエンドから取得したToDoDetailを表示するように修正する
