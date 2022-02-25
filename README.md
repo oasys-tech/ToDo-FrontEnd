@@ -93,4 +93,17 @@
 ## ToDoを更新する
 1. ToDo更新用のHookを作成する
 1. タイトルをTextFieldに変更する
+1. ToDo更新用オブジェクトを作成する
 1. タイトル変更時にToDo更新用のHookを呼び出す
+
+## ToDoDetailを更新する
+1. ToDoDetail更新用のHookを作成する
+1. 名称をTextFieldに変更する
+1. ToDoDetail更新用オブジェクトを作成する
+1. 名称変更時にToDoDetail更新用のHookを呼び出す
+
+## ToDoDetailのチェックボックスを更新する
+1. ToDoDetail更新処理に「completed_flag」を追加する
+1. ToDoDetail更新用のHookに「completed_flag」を追加する
+1. ToDoDetail更新用オブジェクトに「completed_flag」を追加する
+1. チェックボックスをクリックした際に、ToDoDetail更新用のHookを呼び出すように修正する
