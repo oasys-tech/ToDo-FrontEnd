@@ -107,3 +107,13 @@
 1. ToDoDetail更新用のHookに「completed_flag」を追加する
 1. ToDoDetail更新用オブジェクトに「completed_flag」を追加する
 1. チェックボックスをクリックした際に、ToDoDetail更新用のHookを呼び出すように修正する
+
+## ToDo更新時にOptimistic Updateを適用する
+1. ToDo更新用のHookにonMutateを追加する
+1. ToDo更新用のHookにonSettledを追加する
+
+## ToDoDetail更新時にOptimistic Updateを適用する
+1. ToDoDetail更新用のHookにonMutateを追加する
+1. ToDoDetail更新用のHookにonSettledを追加する
+1. ToDoDetail取得時にCompletedFlagをBooleanで返却するように変更する
+1. ToDoDetail更新時に変更されていない項目をstateから取得するように変更する
