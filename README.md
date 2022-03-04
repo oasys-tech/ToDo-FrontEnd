@@ -117,3 +117,12 @@
 1. ToDoDetail更新用のHookにonSettledを追加する
 1. ToDoDetail取得時にCompletedFlagをBooleanで返却するように変更する
 1. ToDoDetail更新時に変更されていない項目をstateから取得するように変更する
+
+## ToDoDetailを削除する
+1. ToDoDetail削除用のHookを作成する
+1. 削除ボタン押下時にToDoDetail削除用のHookを呼び出す
+
+## ToDoを削除する
+1. ToDoコンポーネントに削除ボタンを作成する
+1. ToDo削除用のHookを作成する
+1. 削除ボタン押下時にToDo削除用のHookを呼び出す
