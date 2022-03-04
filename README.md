@@ -126,3 +126,14 @@
 1. ToDoコンポーネントに削除ボタンを作成する
 1. ToDo削除用のHookを作成する
 1. 削除ボタン押下時にToDo削除用のHookを呼び出す
+
+## ToDoDetailを追加する
+1. ToDoコンポーネントに追加ボタンを作成する
+1. ToDoDetail追加用のHookを作成する
+1. 追加ボタン押下時にToDoDetail追加用のHookを呼び出す
+1. ToDoDetailにNullを許可するようにDB定義を変更する
+    * `$ php artisan make:migration alter_todo_details_table_to_name_nullable`
+    * DBの定義変更を記述する
+    * `$ composer require doctrine/dbal`
+    * `$ php artisan migrate`
+1. ToDoDetail登録・更新リクエストにNullを許可するように変更する
