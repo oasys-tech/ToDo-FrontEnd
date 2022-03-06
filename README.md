@@ -7,7 +7,7 @@
         * Checkout as-is, commit Unix-style line endings : true
         * Enable symbolic links : true
     1. xamppをインストールする
-        * https://www.apachefriends.org/jp/download.html
+        * https://www.apachefriends.org/jp/download.html (8.0.3が見つからない方はこちら https://xamppguide.com/download/xampp-8-0-3-for-windows/ )
         * インストールする
         * C:\xamppを書き込みできるようにする
     1. composerをインストールする
@@ -137,3 +137,17 @@
     * `$ composer require doctrine/dbal`
     * `$ php artisan migrate`
 1. ToDoDetail登録・更新リクエストにNullを許可するように変更する
+
+## ToDoを追加する
+1. Homeコンポーネントに追加ボタンを作成する
+1. ToDo追加用のHookを作成する
+1. 追加ボタン押下時にToDo追加用のHookを呼び出す
+1. ToDoにNullを許可するようにDB定義を変更する
+    * `$ php artisan make:migration alter_to_dos_table_to_title_nullable`
+    * DBの定義変更を記述する
+    * `$ php artisan migrate`
+1. ToDo登録・更新リクエストにNullを許可するように変更する
+
+## ToDo作成時に1行ToDoDetailを作成するように修正する
+1. ToDo保存時に空のToDoDetailを作成する
+1. トランザクションを定義する
